@@ -1,0 +1,119 @@
+body{
+  font-size: 14px;
+}
+input{
+  background-color: $bg-inputs;
+  color: #fff;
+  text-transform: uppercase;
+}
+nav{
+    float: right;
+    margin-top: 12px;
+}
+nav a{
+    color: $white;
+    text-transform: uppercase;
+    padding-right: 8px;
+    padding-left: 8px;
+    transition: 1s all ease;
+    &:hover{
+        color: $hover-link;
+        border-bottom: 2px solid $hover-link;
+        text-decoration: none;
+    }
+    &:first-child{
+        border-right: 1px solid $white;
+    }
+    &:last-child{
+        border-left: 1px solid $white;
+    }
+}
+.active-hover{
+    margin-left: 55px !important;
+}
+.nav-bar{
+    height: 53px;
+    width: 100%;
+    background-color: $bg-menu;
+    border-bottom: 1px solid $strong-blue;
+    position: fixed;
+    z-index: 5;
+}
+.carousel{
+    height: 100vh !important;
+    -ms-height: 100vh !important;
+    -webkit-height: 100vh !important;
+    -moz-height: 100vh !important;
+
+}
+.carousel-control.right ,.carousel-control.left{
+    background-image: none !important;
+}
+.btn-orange{
+    background-color: #F88108;
+    border-bottom: 3px solid #BF5607 !important;
+    width: 180px;
+    &:hover{
+        color: #fff !important;
+    }
+}
+.center-block-slider{
+    margin-top: -275px;
+    text-align: center;
+    color: #fff;
+}
+.user-icon{
+    position: fixed;
+    margin-top: -550px;
+    width: 100%;
+    text-align: right;
+    margin-left: 190px;
+    transition: 1s all ease;
+    i{
+        font-size: 20px;
+        color: #fff;
+        margin-right: 190px;
+        padding: 7px;
+        background-color: #8EC93D;
+        border-bottom-left-radius: 9px;
+        border-top-left-radius: 9px;
+        border-top: 2px solid #3C773A;
+        border-left: 2px solid #3C773A;
+        border-bottom: 2px solid #3C773A;
+    }
+    span{
+        text-transform: uppercase;
+        color: #fff;
+        background-color: #8EC93D;
+        height: 100%;
+        width: 150px;
+        position: absolute;
+        margin-left: -197px;
+        border-top: 2px solid #3C773A;
+        line-height: 1px;
+        padding: 17px;
+        padding-right: 22px;
+        border-right: 2px solid #3C773A;
+        border-bottom: 2px solid #3C773A;
+        margin-right: 62px;
+    }
+}
+.container-blue-strong{
+    float: right;
+    width: 100px;
+    .left-container{
+        width: 50%;
+        height: 100px;
+        background-color: $strong-blue;
+    }
+    .right-container{
+        width: 50%;
+        float: right;
+        height: 100px;
+        margin-top: -100px;
+        background-color: $strong-blue;
+    }
+}
+.fill{
+    background: -webkit-linear-gradient(#72AAD0, #95C9DE,#A3CFD8) !important;
+}
